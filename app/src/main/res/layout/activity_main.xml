@@ -48,7 +48,7 @@
                         android:layout_marginBottom="2dp"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="8"
+                        android:layout_weight="8.2"
                         android:gravity="center_vertical"
                         android:text="Cloudy PRO"
                         android:textColor="#000"
@@ -59,7 +59,7 @@
                         android:id="@+id/imgSearchIcon"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1.2"
+                        android:layout_weight="1"
                         android:background="@drawable/toolbar_selector"
                         android:scaleType="centerCrop"
                         android:src="@drawable/searchicon" />
