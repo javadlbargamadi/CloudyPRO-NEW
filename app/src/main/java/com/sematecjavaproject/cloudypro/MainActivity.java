@@ -58,8 +58,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-//                Intent searchIntent = new Intent(MainActivity.this, .class);
-//                startActivity(searchIntent);
+                Intent searchIntent = new Intent(MainActivity.this, SearchActivity.class);
+                startActivity(searchIntent);
             }
         });
     }
