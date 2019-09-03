@@ -88,9 +88,10 @@
                                 app:cardCornerRadius="10dp">
 
                                 <ImageView
+                                    android:layout_gravity="center"
                                     android:id="@+id/imgIcon"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
                                     android:src="@drawable/wicontest3" />
                             </androidx.cardview.widget.CardView>
 
@@ -119,15 +120,47 @@
                                     android:layout_height="0dp"
                                     android:text="Overcast Clouds" />
                             </LinearLayout>
-
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
 
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent">
 
+                                <TextView
+                                    android:textColor="#fff"
+                                    android:textSize="120sp"
+                                    android:textAlignment="center"
+                                    android:text="99"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent">
+
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp">
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp">
+
+                                </LinearLayout>
+                            </LinearLayout>
                         </LinearLayout>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
