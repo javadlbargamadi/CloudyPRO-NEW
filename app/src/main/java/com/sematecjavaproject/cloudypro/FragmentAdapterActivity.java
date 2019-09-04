@@ -7,11 +7,15 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
+import com.google.android.material.tabs.TabLayout;
+
 public class FragmentAdapterActivity extends FragmentPagerAdapter {
 
     TodayFragment todayFragment;
     NextSevenDaysFragment nextSevenDaysFragment;
     TodayFragment todayFragment_default;
+
+    TabLayout tabLayout;
 
     public FragmentAdapterActivity(FragmentManager fm) {
         super(fm);
